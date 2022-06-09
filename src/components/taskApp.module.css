@@ -1,3 +1,23 @@
 .taskApp {
   /* Sample */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskApp > div{
+  border: 1px solid black;
+}
+
+.taskApp > div:nth-child(1){
+  height: 150px;
+}
+
+.taskApp > div:nth-child(2) {
+  height: 50px;
+}
+
+.taskApp > div:nth-child(3) {
+  flex:2;
+  /* background-color: green; */
 }

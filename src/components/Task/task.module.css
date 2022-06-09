@@ -1,3 +1,28 @@
 .task {
   /* Sample  */
 }
+.deleteButton {
+  height: 18px;
+  width: 18px;
+  border: none;
+  /* background-color: #f5f5f5; */
+  background-color: white;
+}
+
+.task{
+  display: flex;
+  width:300px;
+  justify-content: space-around;
+}
+
+.task:hover .deleteButton {
+  background: url("../../assets/remove.svg");
+}
+
+.strikeOff{
+  text-decoration: line-through;
+}
+
+.other{
+  font-weight: bold;
+}
